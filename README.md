@@ -9,6 +9,7 @@
     - [Resources](#resources)
     - [Symbolism](#symbolism)
     - [Meaning](#meaning)
+  - [Typography](#typography)
 
 
 
@@ -297,7 +298,6 @@ $themes: (
 </p>
 
 ### Resources
-- [figma](https://www.figma.com/file/MChMOxFDqczUpY9be3wxOI/Company-Logo?type=design&node-id=3%3A177&mode=design&t=N5fJHcNGSmWpyHR5-1)
 - [Logo usage guidelines](assetUsage.md)
 
 ### Symbolism
@@ -313,3 +313,10 @@ The Duran Enterprise logo symbolizes the company's dedication to promoting wisdo
 The color palette enhances the logo's meaning: the dark background symbolizes the beginning of the educational journey, the light background represents knowledge illumination, and the blue tones reflect trust, innovation, and the excitement of learning.
 
 Our logo communicates that Duran Enterprise is a trusted and dynamic source of educational content and tools, guiding individuals on their journey of learning and skill development in the world of programming.
+
+## Typography
+
+The default font-family that will be used is ["Noto Sans" from Google Fonts](https://fonts.google.com/noto/specimen/Noto+Sans) which is chosen for its readability and versatility.
+
+Check usage [here](./Typography.md).
+Check out preview template [here](./src/templates/default.html).
