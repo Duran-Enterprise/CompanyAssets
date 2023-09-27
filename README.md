@@ -29,6 +29,7 @@
 - **Accent Color (`#079DED`)**: The accent color, a vibrant blue, adds a touch of energy and enthusiasm. It represents the excitement of acquiring new knowledge and the aspiration to excel in the field of programming.
 
 ### CSS
+
 <details>
     <summary>Regular CSS</summary>
 
@@ -297,6 +298,7 @@ $themes: (
 
 ### Resources
 - [figma](https://www.figma.com/file/MChMOxFDqczUpY9be3wxOI/Company-Logo?type=design&node-id=3%3A177&mode=design&t=N5fJHcNGSmWpyHR5-1)
+- [Logo usage guidelines](assetUsage.md)
 
 ### Symbolism
 
