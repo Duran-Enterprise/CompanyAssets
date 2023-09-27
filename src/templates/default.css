@@ -1,0 +1,190 @@
+:root {
+    --text: #00060a;
+    --background: #eaecf6;
+    --primary: #1677ac;
+    --secondary: #c4e9fd;
+    --accent: #079ded;
+    --card: #d1d4e3;
+    --hover: #aba605;
+    --font-family: "Noto Sans", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #f5fbff;
+        --background: #090b15;
+        --primary: #53b4e9;
+        --secondary: #02273b;
+        --accent: #12a7f8;
+    }
+}
+body.dark {
+    --text: #f5fbff;
+    --background: #090b15;
+    --primary: #53b4e9;
+    --secondary: #02273b;
+    --accent: #12a7f8;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+header {
+    background-color: var(--secondary);
+    color: var(--text);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+.headings {
+    background-color: var(--background);
+}
+.headings h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.headings h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headings h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.headings h4 {
+    font-size: 18px;
+}
+
+.headings h5 {
+    font-size: 16px;
+}
+
+.headings h6 {
+    font-size: 14px;
+}
+
+.articles strong {
+    font-weight: bold;
+}
+
+.articles em {
+    font-style: italic;
+}
+
+.articles del {
+    text-decoration: line-through;
+}
+
+.articles ins {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: var(--card);
+    width: 500px;
+    padding: 50px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #090b15;
+}
+
+button[data-primary] {
+    background-color: var(--primary);
+    color: var(--text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[data-secondary] {
+    background-color: var(--secondary);
+    color: var(--text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button[data-secondary]:hover {
+    background-color: calc(var(--secondary), 10%);
+    transition: background-color 0.3s ease;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button[type="submit"],
+form button[type="reset"] {
+    background-color: #1677ac;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+li a {
+    color: var(--text);
+}
+li a:hover {
+    color: var(--primary);
+}
+section {
+    width: 100vw;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(15, 18, 23);
+}
+footer {
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--text);
+    padding: 10px;
+}
